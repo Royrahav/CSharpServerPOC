@@ -1,0 +1,532 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\mappings\\patientmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9332FDE-9179-4A4C-9324-6E49D6EE2F1A}|..\\MyServer.Domain\\MyServer.Domain.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.domain\\entities\\defaultidtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9332FDE-9179-4A4C-9324-6E49D6EE2F1A}|..\\MyServer.Domain\\MyServer.Domain.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.domain\\entities\\identifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9332FDE-9179-4A4C-9324-6E49D6EE2F1A}|..\\MyServer.Domain\\MyServer.Domain.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.domain\\entities\\sex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9332FDE-9179-4A4C-9324-6E49D6EE2F1A}|..\\MyServer.Domain\\MyServer.Domain.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.domain\\entities\\birthdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9332FDE-9179-4A4C-9324-6E49D6EE2F1A}|..\\MyServer.Domain\\MyServer.Domain.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.domain\\entities\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9332FDE-9179-4A4C-9324-6E49D6EE2F1A}|..\\MyServer.Domain\\MyServer.Domain.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.domain\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9332FDE-9179-4A4C-9324-6E49D6EE2F1A}|..\\MyServer.Domain\\MyServer.Domain.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.domain\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9332FDE-9179-4A4C-9324-6E49D6EE2F1A}|..\\MyServer.Domain\\MyServer.Domain.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\myserver.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\patients\\defaultidtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\patients\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\patients\\identifierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\patients\\sexdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\patients\\birthdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\patients\\statedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\patients\\countrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\patients\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\patients\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9332FDE-9179-4A4C-9324-6E49D6EE2F1A}|..\\MyServer.Domain\\MyServer.Domain.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9332FDE-9179-4A4C-9324-6E49D6EE2F1A}|..\\MyServer.Domain\\MyServer.Domain.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.domain\\entities\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\updatetododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\readtododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\dtos\\createtododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69289DAF-7989-4A13-95BC-9A755A8386D6}|..\\MyServer.Infrastructure\\MyServer.Infrastructure.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E21AF41-BB4E-448A-A970-67FD8C286CFA}|..\\MyServer.Api\\MyServer.Api.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69289DAF-7989-4A13-95BC-9A755A8386D6}|..\\MyServer.Infrastructure\\MyServer.Infrastructure.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.infrastructure\\repositories\\eftodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E21AF41-BB4E-448A-A970-67FD8C286CFA}|..\\MyServer.Api\\MyServer.Api.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69289DAF-7989-4A13-95BC-9A755A8386D6}|..\\MyServer.Infrastructure\\MyServer.Infrastructure.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.infrastructure\\myserver.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E21AF41-BB4E-448A-A970-67FD8C286CFA}|..\\MyServer.Api\\MyServer.Api.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.api\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69289DAF-7989-4A13-95BC-9A755A8386D6}|..\\MyServer.Infrastructure\\MyServer.Infrastructure.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.infrastructure\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18024D08-001E-4815-9FE0-BDC3FFBBD1CA}|..\\MyServer.Application\\MyServer.Application.csproj|c:\\roy\\projects\\gonogo\\myserver\\myserver.application\\services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DefaultIdType.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\DefaultIdType.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Domain\\Entities\\DefaultIdType.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\DefaultIdType.cs",
+              "RelativeToolTip": "..\\MyServer.Domain\\Entities\\DefaultIdType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:48:43.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Identifier.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\Identifier.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Domain\\Entities\\Identifier.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\Identifier.cs",
+              "RelativeToolTip": "..\\MyServer.Domain\\Entities\\Identifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:48:05.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sex.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\Sex.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Domain\\Entities\\Sex.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\Sex.cs",
+              "RelativeToolTip": "..\\MyServer.Domain\\Entities\\Sex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:46:44.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BirthDate.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\BirthDate.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Domain\\Entities\\BirthDate.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\BirthDate.cs",
+              "RelativeToolTip": "..\\MyServer.Domain\\Entities\\BirthDate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:46:00.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\State.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Domain\\Entities\\State.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\State.cs",
+              "RelativeToolTip": "..\\MyServer.Domain\\Entities\\State.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:45:41.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\Country.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Domain\\Entities\\Country.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\Country.cs",
+              "RelativeToolTip": "..\\MyServer.Domain\\Entities\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:44:44.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\City.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Domain\\Entities\\City.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\City.cs",
+              "RelativeToolTip": "..\\MyServer.Domain\\Entities\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:44:29.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Domain\\Entities\\Address.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\Address.cs",
+              "RelativeToolTip": "..\\MyServer.Domain\\Entities\\Address.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:44:02.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientMappingProfile.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\Mappings\\PatientMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\Mappings\\PatientMappingProfile.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\Mappings\\PatientMappingProfile.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\Mappings\\PatientMappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:10:14.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DefaultIdTypeDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\DefaultIdTypeDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\Patients\\DefaultIdTypeDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\DefaultIdTypeDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\Patients\\DefaultIdTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:07:53.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IdentifierDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\IdentifierDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\Patients\\IdentifierDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\IdentifierDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\Patients\\IdentifierDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:07:15.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SexDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\SexDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\Patients\\SexDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\SexDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\Patients\\SexDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:06:51.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BirthDateDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\BirthDateDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\Patients\\BirthDateDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\BirthDateDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\Patients\\BirthDateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:05:41.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CountryDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\CountryDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\Patients\\CountryDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\CountryDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\Patients\\CountryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:04:41.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StateDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\StateDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\Patients\\StateDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\StateDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\Patients\\StateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:04:04.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CityDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\CityDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\Patients\\CityDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\CityDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\Patients\\CityDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:03:37.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyServer.Application",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\MyServer.Application.csproj",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\MyServer.Application.csproj",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\MyServer.Application.csproj*",
+              "RelativeToolTip": "..\\MyServer.Application\\MyServer.Application.csproj*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-30T09:12:39.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddressDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\AddressDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\Patients\\AddressDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\AddressDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\Patients\\AddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:03:03.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\PatientDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\Patients\\PatientDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\Patients\\PatientDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\Patients\\PatientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:01:30.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\TodoItem.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Domain\\Entities\\TodoItem.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\TodoItem.cs",
+              "RelativeToolTip": "..\\MyServer.Domain\\Entities\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:00:43.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Domain\\Entities\\Patient.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Domain\\Entities\\Patient.cs",
+              "RelativeToolTip": "..\\MyServer.Domain\\Entities\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:51:45.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EfTodoRepository.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Infrastructure\\Repositories\\EfTodoRepository.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Infrastructure\\Repositories\\EfTodoRepository.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Infrastructure\\Repositories\\EfTodoRepository.cs",
+              "RelativeToolTip": "..\\MyServer.Infrastructure\\Repositories\\EfTodoRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:33:22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\MyServer.Api\\appsettings.json",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Api\\appsettings.json",
+              "RelativeToolTip": "..\\MyServer.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T09:31:33.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "..\\MyServer.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:29:01.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MyServer.Infrastructure",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Infrastructure\\MyServer.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\MyServer.Infrastructure\\MyServer.Infrastructure.csproj",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Infrastructure\\MyServer.Infrastructure.csproj*",
+              "RelativeToolTip": "..\\MyServer.Infrastructure\\MyServer.Infrastructure.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-30T09:16:15.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReadTodoDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\ReadTodoDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\ReadTodoDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\ReadTodoDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\ReadTodoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T08:52:38.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateTodoDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\CreateTodoDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\CreateTodoDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\CreateTodoDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\CreateTodoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T08:52:37.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateTodoDto.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\UpdateTodoDto.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\DTOs\\UpdateTodoDto.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\DTOs\\UpdateTodoDto.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\DTOs\\UpdateTodoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T08:54:43.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Api\\Program.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Api\\Program.cs",
+              "RelativeToolTip": "..\\MyServer.Api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:22:19.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ITodoService.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\Services\\ITodoService.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Application\\Services\\ITodoService.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Application\\Services\\ITodoService.cs",
+              "RelativeToolTip": "..\\MyServer.Application\\Services\\ITodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:13:19.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Api\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Api\\Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Api\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "..\\MyServer.Api\\Controllers\\TodoController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvz4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T08:52:31.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Infrastructure\\Services\\TodoService.cs",
+              "RelativeDocumentMoniker": "..\\MyServer.Infrastructure\\Services\\TodoService.cs",
+              "ToolTip": "C:\\Roy\\Projects\\GoNoGo\\MyServer\\MyServer.Infrastructure\\Services\\TodoService.cs",
+              "RelativeToolTip": "..\\MyServer.Infrastructure\\Services\\TodoService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:16:32.911Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

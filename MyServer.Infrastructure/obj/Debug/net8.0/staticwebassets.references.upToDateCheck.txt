@@ -1,0 +1,14 @@
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\staticwebassets.build.json
