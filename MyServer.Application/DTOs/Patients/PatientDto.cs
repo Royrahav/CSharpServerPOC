@@ -4,7 +4,7 @@
     {
         public int Code { get; set; }
         public string DefaultId { get; set; } = string.Empty;
-        public DefaultIdTypeDto DefaultIdType { get; set; } = new();
+        public DefaultIdTypeDto? DefaultIdType { get; set; }
         public string FirstName { get; set; } = string.Empty;
         public string MiddleName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
@@ -13,9 +13,9 @@
         public bool Inactive { get; set; }
         public string Age { get; set; } = string.Empty;
         public string AgeFull { get; set; } = string.Empty;
-        public BirthDateDto BirthDate { get; set; } = new();
+        public BirthDateDto? BirthDate { get; set; }
         public int BirthYear { get; set; }
         public AddressDto Address { get; set; } = new();
-        public SexDto Sex { get; set; } = new();
+        public SexDto? Sex { get; set; }
     }
 }

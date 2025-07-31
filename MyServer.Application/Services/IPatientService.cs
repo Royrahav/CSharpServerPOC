@@ -1,9 +1,10 @@
 ﻿using MyServer.Application.DTOs.Patients;
+using MyServer.Domain.Entities;
 
 namespace MyServer.Application.Services
 {
-    public class IPatientService
+    public interface IPatientService
     {
-        Task<IEnumerable<PatientDto>> SearchPatientsAsync(string searchString);
+        Task<IEnumerable<Patient>> SearchPatientsAsync(string searchString);
     }
 }

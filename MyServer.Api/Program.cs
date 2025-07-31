@@ -18,8 +18,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ITodoRepository, EfTodoRepository>();
 builder.Services.AddScoped<ITodoService, TodoService>();
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(connectionString));
+{
+    options.UseSqlServer(connectionString);
+    options.LogTo(Console.WriteLine, LogLevel.Information); // Logs SQL to console
+});
 builder.Services.AddAutoMapper(typeof(PatientMappingProfile).Assembly);
+builder.Services.AddScoped<IPatientRepository, PatientRepository>();
+builder.Services.AddScoped<IPatientService, PatientService>();
+builder.Services.AddScoped<IEpisodeRepository, EpisodeRepository>();
 
 var app = builder.Build();
 

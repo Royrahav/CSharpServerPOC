@@ -29,3 +29,4 @@ C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\refint\MyS
 C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\MyServer.Application.pdb
 C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\MyServer.Application.genruntimeconfig.cache
 C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\ref\MyServer.Application.dll
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Application\obj\Debug\net8.0\MyServer.Application.sourcelink.json

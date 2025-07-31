@@ -30,3 +30,4 @@ C:\Roy\Projects\GoNoGo\MyServer\MyServer.Infrastructure\obj\Debug\net8.0\MyServe
 C:\Roy\Projects\GoNoGo\MyServer\MyServer.Infrastructure\obj\Debug\net8.0\refint\MyServer.Infrastructure.dll
 C:\Roy\Projects\GoNoGo\MyServer\MyServer.Infrastructure\obj\Debug\net8.0\MyServer.Infrastructure.pdb
 C:\Roy\Projects\GoNoGo\MyServer\MyServer.Infrastructure\obj\Debug\net8.0\ref\MyServer.Infrastructure.dll
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Infrastructure\obj\Debug\net8.0\MyServer.Infrastructure.sourcelink.json

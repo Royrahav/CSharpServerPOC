@@ -23,3 +23,4 @@ C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\refint\MyServer
 C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\MyServer.Domain.pdb
 C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\ref\MyServer.Domain.dll
 C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\obj\Debug\net8.0\MyServer.Domain.sourcelink.json
