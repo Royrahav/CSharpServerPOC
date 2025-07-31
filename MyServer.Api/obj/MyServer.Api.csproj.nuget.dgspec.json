@@ -61,6 +61,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.58, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -312,6 +316,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.58, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

@@ -5,7 +5,6 @@ namespace MyServer.Infrastructure.Persistence
 {
     public class AppDbContext : DbContext
     {
-        public DbSet<TodoItem> Todos { get; set; }
         public DbSet<Patient> Patients { get; set; }
         public DbSet<PatientIdentifier> PatientIdentifier { get; set; }
         public DbSet<Episode> Episodes { get; set; }
@@ -53,8 +52,8 @@ namespace MyServer.Infrastructure.Persistence
         private static void ConfigureIndexes(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<PatientIdentifier>()
-    .HasIndex(pi => pi.Iipid)
-    .HasDatabaseName("IX_PatientIdentifier_Iipid");
+                .HasIndex(pi => pi.Iipid)
+                .HasDatabaseName("IX_PatientIdentifier_Iipid");
         }
     }
 }
