@@ -1715,18 +1715,12 @@
       "MyServer.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Swashbuckle.AspNetCore": "6.6.2"
-        },
         "compile": {
           "bin/placeholder/MyServer.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/MyServer.Domain.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -5297,9 +5291,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

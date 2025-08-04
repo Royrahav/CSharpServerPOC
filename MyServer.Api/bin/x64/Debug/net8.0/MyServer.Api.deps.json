@@ -2058,9 +2058,6 @@
         }
       },
       "MyServer.Domain/1.0.0": {
-        "dependencies": {
-          "Swashbuckle.AspNetCore": "6.6.2"
-        },
         "runtime": {
           "MyServer.Domain.dll": {
             "assemblyVersion": "1.0.0.0",

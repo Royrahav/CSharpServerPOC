@@ -13,7 +13,8 @@ namespace MyServer.Application.Services
         private readonly IMapper _mapper;
         private readonly ILogger<PatientService> _logger;
 
-        public PatientService(IPatientRepository patientRepository,
+        public PatientService(
+            IPatientRepository patientRepository,
             IEpisodeRepository episodeRepository,
             IMapper mapper,
             ILogger<PatientService> logger)
@@ -43,12 +44,9 @@ namespace MyServer.Application.Services
                     return Enumerable.Empty<Patient>();
                 }
 
-                //var patientDtos = _mapper.Map<IEnumerable<PatientDto>>(patientsList);
-
                 foreach (var patient in patients)
                 {
                     var episodes = await _episodeRepository.GetOpenEpisodesByPatientCodeAsync(patient.Code);
-                    // Do something with episodes — e.g., log, inspect, later assign
                 }
 
                 _logger.LogDebug("Successfully found {Count} patients for search string: {SearchString}",

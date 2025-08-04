@@ -1,49 +1,14 @@
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using MyServer.Application.Interfaces;
-using MyServer.Application.Mappings;
-using MyServer.Application.Services;
-using MyServer.Infrastructure.Persistence;
-using MyServer.Infrastructure.Repositories;
-using MyServer.Infrastructure.Services;
-using StackExchange.Redis;
+using MyServer.Api.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-// Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<AppDbContext>(options =>
-{
-    options.UseSqlServer(connectionString);
-});
-builder.Services.AddAutoMapper(typeof(PatientMappingProfile).Assembly);
-
-builder.Services.AddScoped<IPatientRepository, PatientRepository>();
-builder.Services.AddScoped<IPatientService, PatientService>();
-builder.Services.AddScoped<IEpisodeRepository, EpisodeRepository>();
-builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
-    ConnectionMultiplexer.Connect("localhost:6379"));
-builder.Services.AddScoped<IRedisConfigService, RedisConfigService>();
-
-
+builder.Services.AddApiServices();
+builder.Services.AddDatabaseServices(builder.Configuration, builder.Environment);
+builder.Services.AddRedisServices(builder.Configuration);
+builder.Services.AddApplicationServices();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
+app.ConfigurePipeline();
 
 app.Run();
