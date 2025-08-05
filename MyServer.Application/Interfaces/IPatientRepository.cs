@@ -1,4 +1,5 @@
 ﻿using MyServer.Domain.Entities;
+using MyServer.Application.DTOs.Patients;
 
 namespace MyServer.Application.Interfaces
 {

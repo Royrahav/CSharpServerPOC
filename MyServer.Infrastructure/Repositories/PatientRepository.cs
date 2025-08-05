@@ -2,6 +2,7 @@
 using MyServer.Application.Interfaces;
 using MyServer.Domain.Entities;
 using MyServer.Infrastructure.Persistence;
+using MyServer.Application.DTOs.Patients;
 
 namespace MyServer.Infrastructure.Repositories
 {

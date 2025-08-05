@@ -11,13 +11,16 @@
     <Compile Remove="DTOs\Configuration\**" />
     <Compile Remove="Exceptions\**" />
     <Compile Remove="NewFolder1\**" />
+    <Compile Remove="Tests\**" />
     <Content Remove="NewFolder1\**" />
     <EmbeddedResource Remove="DTOs\Configuration\**" />
     <EmbeddedResource Remove="Exceptions\**" />
     <EmbeddedResource Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="Tests\**" />
     <None Remove="DTOs\Configuration\**" />
     <None Remove="Exceptions\**" />
     <None Remove="NewFolder1\**" />
+    <None Remove="Tests\**" />
   </ItemGroup>
 
   <ItemGroup>
