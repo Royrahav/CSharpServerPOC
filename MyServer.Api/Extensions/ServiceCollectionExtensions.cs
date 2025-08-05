@@ -16,7 +16,8 @@ public static class ServiceCollectionExtensions
         services.AddControllers();
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
-        
+        services.AddHttpContextAccessor();
+
         return services;
     }
 
@@ -28,14 +29,16 @@ public static class ServiceCollectionExtensions
         var connectionString = configuration.GetConnectionString("DefaultConnection")
             ?? throw new InvalidOperationException("DefaultConnection not found in configuration");
 
-        services.AddDbContext<AppDbContext>(options =>
+        services.AddDbContext<AppDbContext>((sp, options) =>
         {
+            var interceptor = sp.GetRequiredService<EfQueryTimingInterceptor>();
             options.UseSqlServer(connectionString);
             
             if (environment.IsDevelopment())
             {
                 options.EnableSensitiveDataLogging();
                 options.EnableDetailedErrors();
+                options.AddInterceptors(interceptor);
             }
         });
 
@@ -76,7 +79,8 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IPatientRepository, PatientRepository>();
         services.AddScoped<IPatientService, PatientService>();
         services.AddScoped<IEpisodeRepository, EpisodeRepository>();
-        
+        services.AddScoped<EfQueryTimingInterceptor>();
+
         return services;
     }
 }

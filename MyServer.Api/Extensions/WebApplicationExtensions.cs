@@ -10,7 +10,8 @@ public static class WebApplicationExtensions
             app.UseSwaggerUI();
         }
 
-        app.UseHttpsRedirection();
+        app.UseMiddleware<RequestLoggingMiddleware>();
+        //app.UseHttpsRedirection();
         app.UseAuthorization();
         app.MapControllers();
 
