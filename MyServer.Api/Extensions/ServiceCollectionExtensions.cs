@@ -41,7 +41,7 @@ public static class ServiceCollectionExtensions
                 options.AddInterceptors(interceptor);
             }
         });
-
+            
         return services;
     }
 
@@ -79,6 +79,7 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IPatientRepository, PatientRepository>();
         services.AddScoped<IPatientService, PatientService>();
         services.AddScoped<IEpisodeRepository, EpisodeRepository>();
+        services.AddScoped<IPerformanceService, PerformanceService>();
         services.AddScoped<EfQueryTimingInterceptor>();
 
         return services;
