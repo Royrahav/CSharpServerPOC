@@ -1,11 +1,7 @@
-﻿using Xunit;
-using Microsoft.EntityFrameworkCore;
-using MyServer.Infrastructure.Repositories;
+﻿using Microsoft.EntityFrameworkCore;
 using MyServer.Domain.Entities;
 using MyServer.Infrastructure.Persistence;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Linq;
+using MyServer.Infrastructure.Repositories;
 
 namespace MyServer.Application.Tests.Repositories
 {

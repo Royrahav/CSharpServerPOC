@@ -22,6 +22,17 @@
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7212;http://localhost:5009"
     },
+    "Release": {
+      "commandName": "Project",
+      "commandLineArgs": "--port=5001",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7212;http://localhost:5009"
+    },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,

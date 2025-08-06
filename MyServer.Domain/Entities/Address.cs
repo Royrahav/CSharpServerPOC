@@ -1,6 +1,4 @@
-﻿using System.Diagnostics.Metrics;
-
-namespace MyServer.Domain.Entities
+﻿namespace MyServer.Domain.Entities
 {
     public class Address
     {

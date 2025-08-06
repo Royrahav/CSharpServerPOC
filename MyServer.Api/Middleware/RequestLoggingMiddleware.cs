@@ -15,6 +15,8 @@ public class RequestLoggingMiddleware
 
     public async Task InvokeAsync(HttpContext context)
     {
+        _logger.LogInformation("MIDDLEWARE RUNNING for {path}", context.Request.Path);
+
         var stopwatch = Stopwatch.StartNew();
         var startMemory = GC.GetTotalMemory(forceFullCollection: false);
 

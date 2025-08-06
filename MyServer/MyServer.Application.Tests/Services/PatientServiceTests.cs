@@ -1,12 +1,9 @@
-﻿using Xunit;
-using Moq;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using MyServer.Application.Services;
-using MyServer.Application.Interfaces;
-using MyServer.Domain.Entities;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.Extensions.Logging;
+using Moq;
+using MyServer.Application.Interfaces;
+using MyServer.Application.Services;
+using MyServer.Domain.Entities;
 
 namespace MyServer.Application.Tests.Services
 {

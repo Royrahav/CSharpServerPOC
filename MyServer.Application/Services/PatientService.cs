@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
-using MyServer.Application.DTOs.Patients;
-using MyServer.Application.Interfaces;
 using Microsoft.Extensions.Logging;
+using MyServer.Application.Interfaces;
 using MyServer.Domain.Entities;
 
 namespace MyServer.Application.Services
@@ -60,6 +59,35 @@ namespace MyServer.Application.Services
                 _logger.LogError(ex, "Error searching patients with search string: {SearchString}", searchString);
                 throw;
             }
+        }
+
+        public IEnumerable<Patient> SearchPatients(string searchString)
+        {
+            if (string.IsNullOrWhiteSpace(searchString))
+            {
+                _logger.LogDebug("Empty search string provided");
+                return Enumerable.Empty<Patient>();
+            }
+
+            var patients = _patientRepository.SearchPatientsByIdentifier(searchString);
+            var patientsList = patients.ToList();
+
+            if (!patientsList.Any())
+            {
+                _logger.LogDebug("No patients found for search string: {SearchString}", searchString);
+                return Enumerable.Empty<Patient>();
+            }
+
+            foreach (var patient in patientsList)
+            {
+                var episodes = _episodeRepository.GetOpenEpisodesByPatientCode(patient.Code);
+                // use if needed, or remove if unused
+            }
+
+            _logger.LogDebug("Successfully found {Count} patients for search string: {SearchString}",
+                patientsList.Count, searchString);
+
+            return patientsList;
         }
     }
 }

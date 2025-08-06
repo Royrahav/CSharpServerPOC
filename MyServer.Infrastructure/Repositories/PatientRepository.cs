@@ -2,7 +2,6 @@
 using MyServer.Application.Interfaces;
 using MyServer.Domain.Entities;
 using MyServer.Infrastructure.Persistence;
-using MyServer.Application.DTOs.Patients;
 
 namespace MyServer.Infrastructure.Repositories
 {
@@ -34,8 +33,27 @@ namespace MyServer.Infrastructure.Repositories
                 .Take(20)
                 .ToListAsync();
 
-             return results;
-        }   
+            return results;
+        }
 
+        public IEnumerable<Patient> SearchPatientsByIdentifier(string searchString)
+        {
+            if (string.IsNullOrWhiteSpace(searchString))
+                return Enumerable.Empty<Patient>();
+
+            var normalizedSearch = searchString.Trim().ToUpperInvariant();
+
+            return _context.Patients
+                .Join(_context.PatientIdentifier,
+                      patient => patient.Code,
+                      ii => ii.Iicode,
+                      (patient, ii) => new { patient, ii })
+                .Where(x => x.ii.Iipid == searchString || x.ii.Iipid.StartsWith(searchString + "-"))
+                .OrderBy(x => x.ii.Iipid)
+                .ThenBy(x => x.patient.Code)
+                .Select(x => x.patient)
+                .Take(20)
+                .ToList(); // <- sync
+        }
     }
 }

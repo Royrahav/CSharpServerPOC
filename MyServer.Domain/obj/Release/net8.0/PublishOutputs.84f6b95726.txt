@@ -1,0 +1,3 @@
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\bin\Release\net8.0\publish\MyServer.Domain.dll
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\bin\Release\net8.0\publish\MyServer.Domain.deps.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer.Domain\bin\Release\net8.0\publish\MyServer.Domain.pdb

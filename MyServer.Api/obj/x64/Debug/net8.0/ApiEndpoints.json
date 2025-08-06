@@ -14,5 +14,73 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyServer.Api.Controllers.PatientsController",
+    "Method": "GetPatientsSync",
+    "RelativePath": "api/Patients/sync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchString",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyServer.Api.Controllers.PerformanceController",
+    "Method": "StartPerformanceLoop",
+    "RelativePath": "api/Performance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyServer.Api.Controllers.PerformanceController",
+    "Method": "StartPerformanceLoopSync",
+    "RelativePath": "api/Performance/sync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyServer.Api.Controllers.PerformanceAndPatientController",
+    "Method": "GetPatientsAndRunPerformance",
+    "RelativePath": "api/PerformanceAndPatient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchString",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyServer.Api.Controllers.PerformanceAndPatientController",
+    "Method": "GetPatientsAndRunPerformanceSync",
+    "RelativePath": "api/PerformanceAndPatient/sync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchString",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

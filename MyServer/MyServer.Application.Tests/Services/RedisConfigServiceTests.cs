@@ -1,11 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore.Storage;
-using Moq;
-using MyServer.Application.Entities;
+﻿using Moq;
 using MyServer.Infrastructure.Services;
 using StackExchange.Redis;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Xunit;
 
 namespace MyServer.Application.Tests.Services
 {

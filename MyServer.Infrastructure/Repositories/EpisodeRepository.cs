@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyServer.Application.Interfaces;
 using MyServer.Domain.Entities;
-using MyServer.Infrastructure;
 using MyServer.Infrastructure.Persistence;
 
 namespace MyServer.Infrastructure.Repositories
@@ -23,6 +22,16 @@ namespace MyServer.Infrastructure.Repositories
                             new[] { 1, 2, 3, 4, 12 }.Contains(e.Type))
                 .OrderByDescending(e => e.Number)
                 .ToListAsync();
+        }
+
+        public List<Episode> GetOpenEpisodesByPatientCode(int patientCode)
+        {
+            return _context.Episodes
+                .Where(e => e.PatientCode == patientCode &&
+                            e.CloseDate == 0 &&
+                            new[] { 1, 2, 3, 4, 12 }.Contains(e.Type))
+                .OrderByDescending(e => e.Number)
+                .ToList();
         }
     }
 }

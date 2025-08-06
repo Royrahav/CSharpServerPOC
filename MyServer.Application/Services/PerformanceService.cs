@@ -1,8 +1,4 @@
-﻿using AutoMapper;
-using MyServer.Application.DTOs.Patients;
-using MyServer.Application.Interfaces;
-using Microsoft.Extensions.Logging;
-using MyServer.Domain.Entities;
+﻿using Microsoft.Extensions.Logging;
 
 namespace MyServer.Application.Services
 {
@@ -17,7 +13,18 @@ namespace MyServer.Application.Services
         }
 
         public async Task<int> RunPerformanceLoop()
-        { 
+        {
+            int n = 0;
+            while (n < 100000000)
+            {
+                n++;
+            }
+            _logger.LogTrace("Performance loop ended!");
+            return 0;
+        }
+
+        public int RunPerformanceLoopSync()
+        {
             int n = 0;
             while (n < 100000000)
             {

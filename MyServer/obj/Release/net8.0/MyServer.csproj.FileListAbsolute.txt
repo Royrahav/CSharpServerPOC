@@ -1,0 +1,9 @@
+C:\Roy\Projects\GoNoGo\MyServer\MyServer\obj\Release\net8.0\MyServer.csproj.AssemblyReference.cache
+C:\Roy\Projects\GoNoGo\MyServer\MyServer\obj\Release\net8.0\rpswa.dswa.cache.json
+C:\Roy\Projects\GoNoGo\MyServer\MyServer\obj\Release\net8.0\MyServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Roy\Projects\GoNoGo\MyServer\MyServer\obj\Release\net8.0\MyServer.AssemblyInfoInputs.cache
+C:\Roy\Projects\GoNoGo\MyServer\MyServer\obj\Release\net8.0\MyServer.AssemblyInfo.cs
+C:\Roy\Projects\GoNoGo\MyServer\MyServer\obj\Release\net8.0\MyServer.csproj.CoreCompileInputs.cache
+C:\Roy\Projects\GoNoGo\MyServer\MyServer\obj\Release\net8.0\MyServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Roy\Projects\GoNoGo\MyServer\MyServer\obj\Release\net8.0\MyServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Roy\Projects\GoNoGo\MyServer\MyServer\obj\Release\net8.0\MyServer.sourcelink.json

@@ -1,7 +1,7 @@
-﻿using System.Diagnostics;
-using System.Data.Common;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore.Diagnostics;
-using Microsoft.AspNetCore.Http;
+using System.Data.Common;
+using System.Diagnostics;
 
 public class EfQueryTimingInterceptor : DbCommandInterceptor
 {

@@ -17,34 +17,38 @@ namespace MyServer.Infrastructure.Services
         {
             var redisKeys = keys.Select(k => (RedisKey)k).ToArray();
             var values = await _db.StringGetAsync(redisKeys);
-            
-            var result = new List<RedisConfigEntry>(keys.Length);
-            for (int i = 0; i < keys.Length; i++)
-            {
-                result.Add(new RedisConfigEntry
-                {
-                    Key = keys[i],
-                    Value = values[i].HasValue ? values[i].ToString() : string.Empty,
-                    Exists = values[i].HasValue
-                });
-            }
-            return result;
 
-            // Option 2: Parallel execution (if MGET isn't suitable)
-            /*
-            var tasks = keys.Select(async key =>
+            var result = new List<RedisConfigEntry>(keys.Length);
+            foreach (var key in keys)
             {
                 var value = await _db.StringGetAsync(key);
-                return new RedisConfigEntry
+                result.Add(new RedisConfigEntry
                 {
                     Key = key,
                     Value = value.HasValue ? value.ToString() : string.Empty,
                     Exists = value.HasValue
-                };
-            });
+                });
+            }
+            return result;
+        }
 
-            return (await Task.WhenAll(tasks)).ToList();
-            */
+        public List<RedisConfigEntry> LoadConfigs(string[] keys)
+        {
+            var redisKeys = keys.Select(k => (RedisKey)k).ToArray();
+            var values = _db.StringGet(redisKeys);
+
+            var result = new List<RedisConfigEntry>(keys.Length);
+            foreach (var key in keys)
+            {
+                var value = _db.StringGet(key);
+                result.Add(new RedisConfigEntry
+                {
+                    Key = key,
+                    Value = value.HasValue ? value.ToString() : string.Empty,
+                    Exists = value.HasValue
+                });
+            }
+            return result;
         }
     }
 }

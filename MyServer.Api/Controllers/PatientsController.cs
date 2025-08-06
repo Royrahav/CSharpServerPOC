@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyServer.Application.Services;
 using MyServer.Application.Interfaces;
-using Microsoft.AspNetCore.Authorization.Infrastructure;
+using MyServer.Application.Services;
 
 namespace MyServer.Api.Controllers
 {
@@ -11,7 +10,6 @@ namespace MyServer.Api.Controllers
     {
         private readonly IPatientService _patientService;
         private readonly IRedisConfigService _redisConfigService;
-        // For Redis Mock
         private readonly string _redisPrefix;
         private readonly string[] _configKeys;
 
@@ -44,27 +42,53 @@ namespace MyServer.Api.Controllers
 
             _patientService = patientService;
             _redisConfigService = redisConfigService;
-
-
         }
 
         [HttpGet]
         public async Task<IActionResult> GetPatients([FromQuery] string searchString)
         {
-            var fullKeys = _configKeys.Select(k => _redisPrefix + k).ToArray();
-            var configs = await _redisConfigService.LoadConfigsAsync(fullKeys);
-            foreach (var config in configs)
-                //Console.WriteLine($"{config.Key} => Exists: {config.Exists}, Value: {config.Value}");
-                continue;
+            await LoadRedisConfigAsync();
+            var validationResult = ValidateSearchString(searchString);
+            if (validationResult != null)
+                return validationResult;
 
+            var result = await _patientService.SearchPatientsAsync(searchString.Trim());
+            return Ok(result);
+        }
+
+        [HttpGet("sync")]
+        public IActionResult GetPatientsSync([FromQuery] string searchString)
+        {
+            LoadRedisConfig();
+            var validationResult = ValidateSearchString(searchString);
+            if (validationResult != null)
+                return validationResult;
+
+            var result = _patientService.SearchPatients(searchString.Trim());
+            return Ok(result);
+        }
+
+        private IActionResult ValidateSearchString(string searchString)
+        {
             if (string.IsNullOrWhiteSpace(searchString))
                 return BadRequest("Search string cannot be empty");
 
             if (searchString.Length < 2)
                 return BadRequest("Search string must be at least 2 characters");
 
-            var result = await _patientService.SearchPatientsAsync(searchString.Trim());
-            return Ok(result);
+            return null;
+        }
+
+        private async Task LoadRedisConfigAsync()
+        {
+            var fullKeys = _configKeys.Select(k => _redisPrefix + k).ToArray();
+            var configs = await _redisConfigService.LoadConfigsAsync(fullKeys);
+        }
+
+        private void LoadRedisConfig()
+        {
+            var fullKeys = _configKeys.Select(k => _redisPrefix + k).ToArray();
+            var configs = _redisConfigService.LoadConfigs(fullKeys);
         }
     }
 }

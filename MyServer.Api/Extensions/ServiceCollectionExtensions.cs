@@ -22,8 +22,8 @@ public static class ServiceCollectionExtensions
     }
 
     public static IServiceCollection AddDatabaseServices(
-        this IServiceCollection services, 
-        IConfiguration configuration, 
+        this IServiceCollection services,
+        IConfiguration configuration,
         IWebHostEnvironment environment)
     {
         var connectionString = configuration.GetConnectionString("DefaultConnection")
@@ -33,29 +33,29 @@ public static class ServiceCollectionExtensions
         {
             var interceptor = sp.GetRequiredService<EfQueryTimingInterceptor>();
             options.UseSqlServer(connectionString);
-            
+            options.AddInterceptors(interceptor);
+
             if (environment.IsDevelopment())
             {
                 options.EnableSensitiveDataLogging();
                 options.EnableDetailedErrors();
-                options.AddInterceptors(interceptor);
             }
         });
-            
+
         return services;
     }
 
     public static IServiceCollection AddRedisServices(
-        this IServiceCollection services, 
+        this IServiceCollection services,
         IConfiguration configuration)
     {
-        var redisConnectionString = configuration.GetConnectionString("Redis") 
+        var redisConnectionString = configuration.GetConnectionString("Redis")
             ?? "localhost:6379";
 
         services.AddSingleton<IConnectionMultiplexer>(serviceProvider =>
         {
             var logger = serviceProvider.GetService<ILogger<Program>>();
-            
+
             try
             {
                 return ConnectionMultiplexer.Connect(redisConnectionString);
@@ -68,14 +68,14 @@ public static class ServiceCollectionExtensions
         });
 
         services.AddScoped<IRedisConfigService, RedisConfigService>();
-        
+
         return services;
     }
 
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
         services.AddAutoMapper(typeof(PatientMappingProfile).Assembly);
-        
+
         services.AddScoped<IPatientRepository, PatientRepository>();
         services.AddScoped<IPatientService, PatientService>();
         services.AddScoped<IEpisodeRepository, EpisodeRepository>();

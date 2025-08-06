@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyServer.Application.Interfaces;
 using MyServer.Application.Services;
 
 namespace MyServer.Api.Controllers
@@ -14,10 +13,18 @@ namespace MyServer.Api.Controllers
         {
             _performanceService = performanceService;
         }
-            [HttpGet]
+
+        [HttpGet]
         public async Task<IActionResult> StartPerformanceLoop()
         {
             var result = await _performanceService.RunPerformanceLoop();
+            return Ok(result);
+        }
+
+        [HttpGet("sync")]
+        public IActionResult StartPerformanceLoopSync()
+        {
+            var result = _performanceService.RunPerformanceLoopSync();
             return Ok(result);
         }
     }
